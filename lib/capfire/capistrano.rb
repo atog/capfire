@@ -1,5 +1,5 @@
 # Defines deploy:notify_campfire
-
+require 'etc'
 require 'broach'
 
 Capistrano::Configuration.instance(:must_exist).load do
